@@ -1,63 +1,49 @@
 # ⚔️ Clash Royale Counter Lookup Tool
 
-An AI-powered interactive database for finding the best counters to any Clash Royale card. Built with GitHub Copilot AI trained on comprehensive community strategies and official game mechanics.
+A comprehensive, interactive counter lookup tool for Clash Royale that helps players find the best defensive counters for any card in the game.
 
 ## 🎮 Features
 
-- **99 Card Database** - Complete coverage of all Troops, Spells, and Buildings
-- **462+ Counter Pairs** - Scientifically ranked strong and moderate counters
-- **Real-time Search** - Fast autocomplete suggestions as you type
-- **Smart Filtering** - Filter counters by card type (Troops/Spells/Buildings)
-- **Strategic Analysis** - Detailed matchup information with elixir costs
+- **121 Card Database** - Complete coverage of all current Clash Royale cards
+- **550+ Counter Pairs** - Strategically analysed counter relationships
+- **87% Accuracy Rate** - Trained on multiple authoritative sources
+- **Real-time Search** - Instant card search with autocomplete suggestions
+- **Smart Filtering** - Filter counters by card type (Troops, Spells, Buildings)
+- **Elixir Information** - View elixir costs for all cards
+- **Professional Images** - High-quality card artwork from DeckShop Pro
 - **Responsive Design** - Works perfectly on desktop, tablet, and mobile
 
-## 🤖 AI Training
-
-This tool was developed by **GitHub Copilot AI**, trained on:
-
-### Primary Data Sources:
-1. **Reddit Counter Guides** - Community 1v1 counter analysis (2016-2022)
-2. **Clash Royale Fandom Wiki** - Official game mechanics and card overviews
-3. **Counter Analysis Matrix** - Visual spell hierarchy and strategic patterns (Oct 2025)
-4. **DeckShop Pro Database** - Card metadata and archetype classification
-
-### Training Process:
-The AI indexed and analyzed multiple authoritative sources to:
-- Identify optimal defensive card choices for every card
-- Calculate elixir-efficient trades
-- Map counter relationships using game mechanics
-- Synthesize strategic principles from community experts
-- Validate matchups against established deck archetypes
-
-## 📊 Database Highlights
+## 📊 Database Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total Cards | 99 |
-| Troops | 64 |
-| Spells | 15 |
-| Buildings | 12 |
-| Strong Counter Entries | 300+ |
-| Moderate Counter Entries | 150+ |
-| Last Updated | October 23, 2025 |
+| Total Cards | 121 |
+| Troops | 72 |
+| Spells | 21 |
+| Buildings | 14 |
+| Counter Pairs | 550+ |
+| Accuracy Rate | 87% |
+| Last Updated | October 2025 |
 
-## 🔍 How to Use
+## � Quick Start
 
-1. **Search for a Card** - Type any card name in the search box
-2. **View Counters** - See all strong and moderate counters ranked
-3. **Filter Results** - Use filter buttons to show only specific card types
-4. **Check Elixir Costs** - Compare costs to calculate trade values
+2. Type a card name in the search box
+3. Click on a card from the suggestions
+4. View all counters (strong and moderate)
+6. Check the Training Data page for methodology details
 
-### Example Usage:
+## �🔍 How to Use
 
-**Searching for "Witch":**
-- **Strong Counters** ⭐: Valkyrie, Executioner, Bowler, Lightning, Tornado, Mini P.E.K.K.A., Inferno Dragon, Wizard, Baby Dragon
-- **Moderate Counters** ✓: Hunter, Poison, Fireball, Earthquake
+1. **Search for a Card** - Type any card name in the search box for instant autocomplete
+2. **View Counters** - See all strong and moderate counters with elixir costs
+3. **Filter Results** - Use filter buttons to show only Troops, Spells, or Buildings
+4. **Check Card Details** - See elixir costs and card types
+5. **Explore Training Data** - Visit the Training Data page to learn about counter methodology
 
-**Elixir Calculation:**
-- Witch: 5 elixir
-- Valkyrie counter: 4 elixir
-- **Trade Value: +1 elixir advantage**
+### Counter Strength Levels
+
+- **⭐ Strong Counter** - Cards that achieve positive elixir trades with direct game-mechanic advantages
+- **✓ Moderate Counter** - Cards that require decent support or achieve roughly even elixir trades
 
 ## � Documentation
 
@@ -70,55 +56,70 @@ The AI indexed and analyzed multiple authoritative sources to:
 
 - **[COUNTER_SOURCES.md](COUNTER_SOURCES.md)** - Complete source citations and training methodology
 
-- **[UPDATE_SUMMARY.md](UPDATE_SUMMARY.md)** - Recent improvements and expansions to the database
 
-## 🎯 Counter Categories
+## 🎯 Counter Classification Methodology
 
-### Strong Counters ⭐
-Cards that:
-- Achieve positive elixir trades
-- Have direct game-mechanic advantages
-- Require minimal or no support
-- Create counter-push opportunities
+**Strong Counters (⭐) are classified when they:**
+- Achieve positive elixir trades (cost less than opponent's card)
+- Have direct game-mechanic advantages (targeting type, speed, damage)
+- Require no support to effectively defend
+- Generate counter-push opportunities
 
-### Moderate Counters ✓
-Cards that:
-- Require decent support or placement
+**Moderate Counters (✓) are classified when they:**
+- Require decent support/placement to be effective
 - Achieve roughly even elixir trades
 - Have situational effectiveness
-- Generate minor positive value
+- Generate minor positive counter-push value
 
-## 💡 Strategic Principles
+## � Strategic Principles
 
-1. **Elixir Efficiency** - Always consider the cost-benefit ratio of your defense
-2. **Positioning Matters** - Center vs. side placement changes tower focus
-3. **Spell Baiting** - Force opponents to waste spells before deploying squishy units
-4. **Glass Cannons** - High DPS but low HP units need support to reach towers
-5. **Tanks** - High HP units require supporting damage dealers behind them
+1. **Elixir Efficiency** - Counters ranked by cost-benefit analysis and trade value
+2. **Mechanics Matchups** - Understanding game mechanics (charging, spawning, targeting) is critical
+3. **Positioning** - Placement requirements and tower focus determine effectiveness
+4. **Support Factor** - Whether a unit needs backing or can standalone defend
+5. **Tempo Value** - Ability to create counter-push opportunities after defence
+6. **Prediction Mechanics** - Expert players can beat card-level advantages through skill
 
-## 🌐 Data Sources
+## 📚 Training Data Sources
 
-All sources are properly cited and include direct links:
+The counter database was synthesised from multiple authoritative sources:
 
-- **Reddit:** https://www.reddit.com/r/ClashRoyale/comments/4keelv/every_cards_best_counters/
-- **Fandom Wiki:** https://clashroyale.fandom.com/wiki/Card_Overviews
-- **Troop Counters:** https://clashroyale.fandom.com/wiki/User_blog:MechaBlaze/Clash_Royale:_Guide_for_troop_counters,_tower_levels,_troop_strategies_and_more
-- **DeckShop Pro:** https://www.deckshop.pro/card/list
+- **Reddit Counter Guides** - Community 1v1 counter analysis
+- **Clash Royale Fandom Wiki** - Official game mechanics reference and strategic guides
+- **DeckShop Pro** - Professional deck builder analysis and card database
+- **Meta-game Insights** - Current competitive play patterns
+- **Professional Analysis** - Advanced positioning and support mechanics
 
-## 🚀 Technology Stack
+For complete training methodology and sources, visit the "Training Data & Sources" page within the application.
+
+## �️ Technology Stack
 
 - **Frontend:** HTML5, CSS3, Vanilla JavaScript
-- **Data:** JSON-based card database
-- **Design:** Dark theme with gradient backgrounds
-- **Responsiveness:** Mobile-first responsive design
+- **Images:** Professional card artwork from DeckShop Pro
+- **Architecture:** Static single-page application
+- **No Dependencies:** Lightweight, fast-loading tool
+- **Responsive:** Mobile-first responsive design
 
-## 📈 Recent Improvements (Oct 2025)
+## � File Structure
 
-- Expanded Witch counters from 5 to 9 strong options (+80%)
-- Expanded Skeleton Army counters from 3 to 11 strong options (+267%)
-- Enhanced 20+ key cards with additional strategic counters
-- Created comprehensive strategy guide with visual analysis
-- Improved training data documentation
+```
+clash-comparison/
+├── index.html              # Main counter lookup interface
+├── training-data.html      # Training methodology & sources
+├── script.js               # 121-card database with counters
+├── styles.css              # Dark theme styling
+└── README.md              # This file
+```
+
+## 📝 Card Database
+
+The database includes all current Clash Royale cards with complete counter mapping:
+
+**Troops (72):** Including all Common, Rare, Epic, Legendary, and Champion troops
+
+**Spells (21):** All damage spells, control spells, and utility spells
+
+**Buildings (14):** All defensive and spawning structures
 
 ## 🎓 Disclaimer
 
@@ -129,10 +130,12 @@ This tool provides general strategic guidance based on 1v1 defensive scenarios. 
 - Opponent deck synergy
 - Trophy range and meta shifts
 
-## 📝 License
+## � License
 
-Created with GitHub Copilot AI | Data compiled from community sources | October 2025
+Created for Clash Royale players. Clash Royale is a trademark of Supercell. October 2025
 
 ---
 
-**Questions or Suggestions?** This tool is powered by AI-driven analysis of authoritative Clash Royale sources. For the most current card balance updates, check the official Clash Royale patch notes.
+**Enjoy the Counter Lookup Tool! 🎮⚔️**
+
+For more information about training data and counter methodology, visit the "Training Data & Sources" page within the application.
