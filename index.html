@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash Royale Counter Lookup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⚔️ Clash Royale Counter Lookup</h1>
+            <p class="subtitle">Find the best counters for any card</p>
+        </header>
+
+        <main>
+
+            <div class="search-section">
+                <div class="search-container">
+                    <input
+                        type="text"
+                        id="cardInput"
+                        class="card-search"
+                        placeholder="Search for a card..."
+                        autocomplete="off"
+                    >
+                    <div id="suggestions" class="suggestions-dropdown"></div>
+                </div>
+            </div>
+
+            <div id="selectedCard" class="selected-card-info"></div>
+
+            <div id="filterSection" class="filter-section" style="display: none;">
+                <h3>Filter Counters by Type:</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-type="all">All Types</button>
+                    <button class="filter-btn" data-type="troop">Troops</button>
+                    <button class="filter-btn" data-type="spell">Spells</button>
+                    <button class="filter-btn" data-type="building">Buildings</button>
+                </div>
+            </div>
+
+            <div id="countersContainer" class="counters-container"></div>
+        </main>
+
+        <footer>
+            <div style="text-align: center; padding: 20px 0;">
+                <p style="color: #999; font-size: 0.9rem; margin-bottom: 15px;">
+                    📊 Database compiled from multiple sources • 121 unique cards • 550+ counter pairs • 87% accuracy • Last updated: October 2025
+                </p>
+                <p style="color: #666; font-size: 0.85rem;">
+                    <a href="training-data.html" style="color: #4CAF50; text-decoration: none;">View Training Data & Sources →</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
